@@ -1,33 +1,33 @@
 {
   "candidate": {
-    "name": "",
-    "college": "",
-    "year": "",
-    "email": ""
+    "name": "Nithin M",
+    "college": "MVJ College of Engineering",
+    "year": "4th Year - Information Science Engineering",
+    "email": "nithinmgowda06@gmail.com"
   },
 
   "github": {
-    "username": "",
-    "repository": ""
+    "username": "nithinmgowda06",
+    "repository": "ecocee-internship-nithin"
   },
 
   "internship": {
-    "task_selected": "",
-    "tech_stack": [],
-    "language": ""
+    "task_selected": "CLI Task Manager with JSON persistence",
+    "tech_stack": ["Python", "argparse", "JSON", "Standard Library"],
+    "language": "Python"
   },
 
   "ai_usage": {
     "used_ai": true,
-    "tools": [],
-    "exact_usage": ""
+    "tools": ["ChatGPT"],
+    "exact_usage": "Used AI for brainstorming project scope and reviewing edge cases. Core implementation, commit structuring, debugging, and architectural decisions were done manually."
   },
 
   "work_summary": {
-    "commit_count": 0,
-    "time_spent_hours": 0,
-    "what_i_built": "",
-    "hardest_part": "",
-    "what_breaks_when_scaled": ""
+    "commit_count": 3,
+    "time_spent_hours": 5,
+    "what_i_built": "A command-line task management application that supports adding, listing, completing, and deleting tasks with JSON-based persistence and input validation.",
+    "hardest_part": "Designing clean error handling while keeping the implementation simple and avoiding overengineering.",
+    "what_breaks_when_scaled": "The file-based storage approach becomes a bottleneck under concurrent access. Without file locking, simultaneous writes may corrupt data. Linear task lookup (O(n)) also degrades performance as data grows."
   }
 }
