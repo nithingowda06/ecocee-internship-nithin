@@ -1,1 +1,2 @@
-print("Welcome to the Ecocee internship")
+if __name__ == "__main__":
+    pass
